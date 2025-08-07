@@ -19,7 +19,7 @@ except ValueError:
 
 print(" ")
 
-sex = input("Are you a male or female? (M/F)").strip().upper()
+sex = input("Are you a male or female? (M/F): ").strip().upper()
 
 if sex in ["MALE", "M"]:
     print("You're a Male!")
