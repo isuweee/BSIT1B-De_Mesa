@@ -21,3 +21,4 @@ name2 = 'ace'
 
 print("Is it not the same? (name1 != name2)? The answer is: ")
 print( name1 != name2 )
+print("Correct! It is indeed not the same.")
