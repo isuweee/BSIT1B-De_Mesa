@@ -2,7 +2,7 @@ a = 25
 print("The value of 'a' is", a)
 
 a -= 5
-print("The value of 'a' now -5 is ", a)
+print("The value of 'a' now after -5 is ", a)
 
 a += 14
 a *= 2 
