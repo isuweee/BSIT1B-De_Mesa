@@ -1,86 +1,86 @@
-print("Let me suggest some good sh*t manga or manhwa for you")
+print("Let me suggest some good stuff manga or manhwa for you")
 
-man = input("What do you prefer? manga or manhwa: ").lower()
-genre = input("What genre do u like? (action, romance, comedy, sports, horror): ").lower()
-year = input("Well what era do u prefer? (2000s or 2010s): ").lower()
-duration = input("What about the duration or length of the read? (short, medium, long): ").lower()
+man = input("What do you prefer? manga or manhwa: ").lower().strip()
+genre = input("What genre do u like? (action, romance, comedy, sports, horror): ").lower().strip()
+year = input("Well what era do u prefer? (2000s or 2010s): ").lower().strip()
+duration = input("What about the duration or length of the read? (short, medium, long): ").lower().strip()
 
 if man == 'manga':
     if year == '2000s':
         if genre == 'action':
             if duration == 'short':
-                print("I suggest reading 'Samurai Deeper Kyo' (short action-packed read)")
+                print("I suggest reading 'Fullmetal Alchemist' (108 chapters)")
             elif duration == 'medium':
-                print("Try reading 'Fullmetal Alchemist' (perfect balance of length and story)")
+                print("Try reading 'Samurai Deeper Kyo' (308 chapters)")
             elif duration == 'long':
-                print("Check out 'Naruto' (epic action series with long development)")
+                print("Check out 'Naruto' (700 chapters)")
         elif genre == 'romance':
             if duration == 'short':
-                print("Go read 'Kimi ni Todoke' (short and sweet romance)")
+                print("Go read 'Kimi ni Todoke' (123 chapters)")
             elif duration == 'medium':
-                print("Try 'Nodame Cantabile' (medium-length romance with comedy elements)")
+                print("Try 'Fruits Basket' (136 chapters)")
             elif duration == 'long':
-                print("Go for 'Fruits Basket' (long, but heartwarming romance story)")
+                print("Go for 'Boys Be...' (200+ chapters)")
         elif genre == 'comedy':
             if duration == 'short':
-                print("Go read 'Gintama' (short arcs but full of laughs)")
+                print("Go read 'Ouran High School Host Club' (83 chapters)")
             elif duration == 'medium':
-                print("Try 'Ouran High School Host Club' (medium length with comedic moments)")
+                print("Try 'Gintama' (200+ chapters early arcs)")
             elif duration == 'long':
-                print("Check out 'One Piece' (long-running, full of comedy and adventure)")
+                print("Check out 'One Piece' (1000+ chapters)")
         elif genre == 'sports':
             if duration == 'short':
-                print("Try reading 'Eyeshield 21' (short but exciting football action)")
+                print("Try reading 'Kuroko no Basket' (275 chapters)")
             elif duration == 'medium':
-                print("Go for 'Hajime no Ippo' (classic boxing manga with medium-length arcs)")
+                print("Go for 'Eyeshield 21' (333 chapters)")
             elif duration == 'long':
-                print("Check out 'Kuroko no Basket' (long basketball series with tons of matches)")
+                print("Check out 'Hajime no Ippo' (1400+ chapters)")
         elif genre == 'horror':
             if duration == 'short':
-                print("Go read 'Gyo' by Junji Ito (short and creepy horror story)")
+                print("Go read 'Gyo' (20 chapters)")
             elif duration == 'medium':
-                print("Try 'Tokyo Ghoul' (medium-length horror with deep story themes)")
+                print("Try 'Tokyo Ghoul' (143 chapters)")
             elif duration == 'long':
-                print("Go for 'Berserk' (long, dark fantasy with horror elements)")
+                print("Go for 'Berserk' (380+ chapters)")
         else:
             print("Please re-do and pick a valid genre from the available list")
     
     elif year == '2010s':
         if genre == 'action':
             if duration == 'short':
-                print("I suggest reading 'One Punch Man' (short and full of action-packed moments)")
+                print("I suggest reading 'Attack on Titan' (139 chapters)")
             elif duration == 'medium':
-                print("Try 'Attack on Titan' (medium length with gripping action and drama)")
+                print("Try 'One Punch Man' (218+ chapters)")
             elif duration == 'long':
-                print("Check out 'My Hero Academia' (long-running series with a lot of action)")
+                print("Check out 'My Hero Academia' (400+ chapters, ongoing)")
         elif genre == 'romance':
             if duration == 'short':
-                print("Go read 'Horimiya' (short, cute, and fast-paced romance)")
+                print("Go for 'Your Lie in April' (44 chapters)")
             elif duration == 'medium':
-                print("Try 'Lovely★Complex' (medium-length romance with comedy)")
+                print("Try 'Ao Haru Ride' (49 chapters)")
             elif duration == 'long':
-                print("Go for 'Your Lie in April' (long, emotional romance story)")
+                print("Go read 'Horimiya' (122 chapters)")
         elif genre == 'comedy':
             if duration == 'short':
-                print("Go read 'One Punch Man' (short, funny with superhero antics)")
+                print("Go read 'Mob Psycho 100' (101 chapters)")
             elif duration == 'medium':
-                print("Try 'Mob Psycho 100' (medium-length comedy with heart and action)")
+                print("Try 'Assassination Classroom' (180 chapters)")
             elif duration == 'long':
-                print("Check out 'Gintama' (long series full of comedic and emotional moments)")
+                print("Check out 'Gintama' (704 chapters)")
         elif genre == 'sports':
             if duration == 'short':
-                print("Try reading 'Haikyuu!!' (short but high-paced volleyball action)")
+                print("Try reading 'Kuroko no Basket' (275 chapters)")
             elif duration == 'medium':
-                print("Go for 'Kuroko no Basket' (medium-length basketball series with great dynamics)")
+                print("Go for 'Haikyuu!!' (402 chapters)")
             elif duration == 'long':
-                print("Check out 'Yuri on Ice' (longer series with beautiful skating choreography)")
+                print("Check out 'Diamond no Ace' (400+ chapters)")
         elif genre == 'horror':
             if duration == 'short':
-                print("Go read 'Mieruko-chan' (short and spooky horror with humor)")
+                print("Go read 'Mieruko-chan' (50+ chapters)")
             elif duration == 'medium':
-                print("Try 'The Promised Neverland' (medium-length with psychological horror elements)")
+                print("Go for 'Tokyo Ghoul:re' (179 chapters)")
             elif duration == 'long':
-                print("Go for 'Tokyo Ghoul' (long horror series with action and dark themes)")
+                print("Try 'The Promised Neverland' (181 chapters)")
         else:
             print("Please re-do and pick a valid genre from the available list")
 
@@ -88,80 +88,79 @@ elif man == 'manhwa':
     if year == '2000s':
         if genre == 'action':
             if duration == 'short':
-                print("I suggest reading 'Leviathan' (short, but impactful action story)")
+                print("Try 'The Breaker' (72 chapters)")
             elif duration == 'medium':
-                print("Try 'Noblesse' (medium-length with action and fantasy elements)")
+                print("I suggest reading 'Leviathan' (214 chapters)")
             elif duration == 'long':
-                print("Check out 'The Breaker' (long and intense action story)")
+                print("Check out 'Noblesse' (544 chapters)")
         elif genre == 'romance':
             if duration == 'short':
-                print("Go read 'I Don't Want This Marriage' (short and emotional romance)")
+                print("Go read 'I Don't Want This Marriage' (80 chapters)")
             elif duration == 'medium':
-                print("Try 'Love in the Mask' (medium-length romance with drama)")
+                print("Try 'Love in the Mask' (82 chapters)")
             elif duration == 'long':
-                print("Go for 'Cheese in the Trap' (long romance with depth and drama)")
+                print("Go for 'Cheese in the Trap' (301 chapters)")
         elif genre == 'comedy':
             if duration == 'short':
-                print("Go read 'Love Story' (short and sweet comedic manhwa)")
+                print("Go read 'Love Story' (20+ chapters)")
             elif duration == 'medium':
-                print("Try 'The Gamer' (medium-length with comedic elements mixed with gaming themes)")
+                print("Try 'The Gamer' (430+ chapters)")
             elif duration == 'long':
-                print("Check out 'Tower of God' (long, with tons of comedy and adventure)")
+                print("Check out 'Tower of God' (500+ chapters)")
         elif genre == 'sports':
             if duration == 'short':
-                print("Try reading 'Hot Blooded Woman' (short sports-related manhwa with a focus on boxing)")
+                print("Try reading 'Hot Blooded Woman' (65 chapters)")
             elif duration == 'medium':
-                print("Go for 'All Talents Are Mine' (medium-length with sports and talent themes)")
+                print("Go for 'Girls of the Wild's' (260 chapters)")
             elif duration == 'long':
-                print("Check out 'God of High School' (long-running martial arts and tournament arcs)")
+                print("Check out 'The God of High School' (500+ chapters)")
         elif genre == 'horror':
             if duration == 'short':
-                print("Go read 'The Boxer' (short but brutal with psychological horror elements)")
+                print("Go read 'Melvina's Therapy' (50 chapters)")
             elif duration == 'medium':
-                print("Try 'The Swordsman' (medium-length with horror and action themes)")
+                print("Try 'Distant Sky' (100+ chapters)")
             elif duration == 'long':
-                print("Go for 'Sweet Home' (long, dark horror with survival elements)")
+                print("Go for 'Sweet Home' (141 chapters)")
         else:
             print("Please re-do and pick a valid genre from the available list")
     
     elif year == '2010s':
         if genre == 'action':
             if duration == 'short':
-                print("I suggest reading 'Solo Leveling' (short action-packed adventure)")
+                print("I suggest reading 'Solo Leveling' (179 chapters)")
             elif duration == 'medium':
-                print("Try 'The God of High School' (medium-length martial arts with action)")
+                print("Try 'The God of High School' (500+ chapters)")
             elif duration == 'long':
-                print("Check out 'Omniscient Reader's Viewpoint' (long with intricate world-building)")
+                print("Check out 'Omniscient Reader's Viewpoint' (550+ chapters)")
         elif genre == 'romance':
             if duration == 'short':
-                print("Go read 'True Beauty' (short, cute romance with beauty and comedy elements)")
+                print("Go read 'True Beauty' (250+ chapters)")
             elif duration == 'medium':
-                print("Try 'Cheese in the Trap' (medium-length romance with complex emotions)")
+                print("Try 'Cheese in the Trap' (301 chapters)")
             elif duration == 'long':
-                print("Go for 'Love Revolution' (long series, deep romance with high school drama)")
+                print("Go for 'Love Revolution' (500+ chapters)")
         elif genre == 'comedy':
             if duration == 'short':
-                print("Go read 'The Greatest Estate Developer' (short but full of laughs and adventure)")
+                print("Go read 'The Greatest Estate Developer' (130+ chapters)")
             elif duration == 'medium':
-                print("Try 'A Returner's Magic Should Be Special' (medium-length with humor and magic)")
+                print("Try 'A Returner's Magic Should Be Special' (250+ chapters)")
             elif duration == 'long':
-                print("Check out 'Lore Olympus' (long, with comedy and romance)")
+                print("Check out Yumi’s Cells (512 chapters)")
         elif genre == 'sports':
             if duration == 'short':
-                print("Try reading 'Ace of Diamond' (short, intense baseball action)")
+                print("Try reading 'The Boxer' (133 chapters)")
             elif duration == 'medium':
-                print("Go for 'All Talents Are Mine' (medium length with sports themes and talent)")
+                print("Check out 'Girls of the Wild's' (260 chapters)")
             elif duration == 'long':
-                print("Check out 'Yuri on Ice' (long, beautiful sports-related series with figure skating)")
+                print("Go for 'Wind Breaker' (400+ chapters)")
         elif genre == 'horror':
             if duration == 'short':
-                print("Go read 'Shotgun Boy' (short but eerie and full of thrills)")
+                print("Go read 'Shotgun Boy' (55 chapters)")
             elif duration == 'medium':
-                print("Try 'The Horizon' (medium-length with supernatural horror elements)")
+                print("Try 'Bastard' (93 chapters)")
             elif duration == 'long':
-                print("Go for 'Bastard' (long, dark thriller with horror and mystery)")
+                print("Go for 'Sweet Home' (141 chapters)")
         else:
             print("Please re-do and pick a valid genre from the available list")
-
 else:
     print("Please select a valid option for manga or manhwa.")
