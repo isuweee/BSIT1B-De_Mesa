@@ -1,3 +1,4 @@
+# Code Challenge 3
 name = input("What's your name?: ")
 fare = int(input("What's your fare fee?: "))
 
