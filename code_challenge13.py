@@ -9,7 +9,7 @@ even_name = ""
 while True:
     num = eval(input("Enter a random number: "))
     if num == 0:
-        print(f"Program STOPS!\nHello {name}, the total of ODD is: {odd}\nThe ODD components are: {num_name}")
+        print(f"Program STOPS!\nHello {name}, \nThe total of ODD is: {odd}\nThe ODD components are: {num_name}")
         print(f"The total of EVEN is: {even}\nThe EVEN components are: {even_name}")
         break
     elif num % 2 == 1:
